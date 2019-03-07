@@ -73,7 +73,7 @@ task customClean(type: Delete) {
 }
 clean.dependsOn customClean
 
-preBuild.dependsOn(generateIcons)
+preBuild.dependsOn(generate)
 
 def props = new Properties()
 
