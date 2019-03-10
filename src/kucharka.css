@@ -11,3 +11,5 @@ p{text-align:left;padding:0 0.5rem;margin:1rem auto;font-size:1.2em;max-width:45
 .obrazek a{display:block;font-size:0;}
 .obrazek p{margin:0 0 1em 0;padding:0.5em;}
 .hlavicka{text-decoration:none;}
+.bookmark{background:url(star.svg) no-repeat 95% 50%;background-size:1em;}
+h2.bookmark{padding:0 2em;}
