@@ -15,10 +15,18 @@ foreach (glob(SRC."/*.html") as $foo) {
 	$html .= $kapitola;
 	$html .= $smarty->fetch('paticka.tpl');
 	file_put_contents(WWW.'/'.$file, $html);
-
 }
+
+$VERSION = `TERM=xterm-color gradle -q printVersionName 2>/dev/null`;
+
+$smarty->assign('VERSION', $VERSION);
+$html = $smarty->fetch('hlavicka.tpl');
+$html .= $smarty->fetch('about.tpl');
+$html .= $smarty->fetch('paticka.tpl');
+file_put_contents(WWW.'/about.html', $html);
 
 copyToDir(SRC.'/kucharka.css', WWW);
 copyToDir(SRC.'/roboto-regular.ttf', WWW);
 copyToDir(SRC.'/*.js', WWW);
 copyToDir(SRC.'/*.svg', WWW);
+copyToDir('img/kucharka512.png', WWW);
