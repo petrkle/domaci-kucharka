@@ -15,11 +15,11 @@ všemu snadno porozumí.
 </p>
 
 <p style="text-align:center;">
-<a href="index.html"><img src="kucharka512.png" style="width:100%;max-width:512px;"></a>
+<a href="index.html"><img src="kucharka512.png" style="width:100%;max-width:512px;" alt="Hrnec"></a>
 </p>
 
 <p style="text-align:center;">Verze: {$VERSION}</p>
 
 <p style="text-align:center;"><a href="https://github.com/petrkle/domaci-kucharka">Zdrojový kód</a></p>
 
-<p style="text-align:center;">Kontakt: <a href="mailto:petr@kle.cz?subject=Domácí kuchařka">petr@kle.cz</a></p>
+<p style="text-align:center;">Kontakt: <a href="mailto:petr@kle.cz?subject=Domácí%20kuchařka">petr@kle.cz</a></p>
