@@ -33,7 +33,7 @@ var nadpisy = document.getElementsByTagName("h2");
 
 for(var i=0; i<nadpisy.length; i++){
 
-	var name =  nadpisy[i].parentNode.getAttribute("name");
+	var name =  nadpisy[i].parentNode.getAttribute("id");
 
 	for(var j=0; j<bookmarks.length; j++){
 		if(name == bookmarks[j].kotva){
@@ -46,7 +46,7 @@ for(var i=0; i<nadpisy.length; i++){
 
 		nadpisy[i].parentNode.addEventListener('click', function(e) {
 			var nadpis = e.target.textContent;
-			var kotva = e.target.parentNode.getAttribute("name");
+			var kotva = e.target.parentNode.getAttribute("id");
 			var recept = { nadpis: nadpis, filename: filename, kotva: kotva };
 
 			e.target.className = "";
@@ -65,7 +65,7 @@ for(var i=0; i<nadpisy.length; i++){
 
   	nadpisy[i].parentNode.addEventListener('click', function(e) {
 		var nadpis = e.target.textContent;
-		var kotva = e.target.parentNode.getAttribute("name");
+		var kotva = e.target.parentNode.getAttribute("id");
 		var recept = { nadpis: nadpis, filename: filename, kotva: kotva };
 
 		e.target.className = "bookmark";
