@@ -1,4 +1,4 @@
-<a href="index.html" class="hlavicka"><h1>Domácí kuchařka</h1></a>
+<h1><a href="index.html">Domácí kuchařka</a></h1>
 
 <h3>Magdalena Dobromila Rettigová</h3>
 
