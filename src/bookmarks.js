@@ -16,10 +16,11 @@ for(var i=0; i<bookmarks.length; i++){
 	seznam = document.getElementsByTagName("li");
 
 		var li = document.createElement("li");
+		li.className = "bookmark";
 		var a = document.createElement("a");
-		a.className = "bookmark";
 		a.href = bookmarks[i].filename+'#'+bookmarks[i].kotva;
 		a.textContent = bookmarks[i].nadpis;
+		a.className = "bm";
 
 		li.appendChild(a);
 
