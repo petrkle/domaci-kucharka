@@ -20,6 +20,7 @@ foreach (glob(SRC."/*.html") as $foo) {
 $VERSION = `TERM=xterm-color gradle -q printVersionName 2>/dev/null`;
 
 $smarty->assign('VERSION', $VERSION);
+$smarty->assign('title', 'O programu');
 $html = $smarty->fetch('hlavicka.tpl');
 $html .= $smarty->fetch('about.tpl');
 $html .= $smarty->fetch('paticka.tpl');
