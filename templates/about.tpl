@@ -25,7 +25,7 @@ Jste-li spokojeným uživatelem, zvažte prosím finanční podporu.
 </p>
 
 <p>
-Příspěvek na další vývoj, opravy chyb a přidávání nových funkcí můžete poslat převodem na účet: <b>1663602015/3030</b> se zprávou pro příjemce: kuchařka.
+Příspěvek na další vývoj, opravy chyb a přidávání nových funkcí můžete poslat na účet: <b>1663602015/3030</b> se zprávou pro příjemce: "Kuchařka".
 </p>
 
 <p class="c">Verze: {$VERSION}</p>
