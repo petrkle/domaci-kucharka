@@ -36,10 +36,12 @@ function vyhledavani(event){
 			let nazev = recepty[kapitola][recept];
 			var re = new RegExp('.*'+query+'.*', 'gi');
 			var kotva =  recept.replace(spojka, '-');
+			var kotvasmezerou =  recept.replace(spojka, ' ');
 			var dokument =  kapitola.replace(spojka, '-')+'.html';
 			var vnazvu = nazev.match(re);
 			var vkotve = kotva.match(re);
-			if(vnazvu || vkotve){
+			var vkotvesmezerou = kotvasmezerou.match(re);
+			if(vnazvu || vkotve || vkotvesmezerou){
 				if(nalezeno<limit){
 					vysledky.push({nazev: nazev, kotva: kotva, dokument: dokument});
 				}
