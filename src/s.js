@@ -29,7 +29,7 @@ function vyhledavani(event){
 	var limit = 100;
 	var nalezeno = 0;
 	var vysledky = [];
-	var re = new RegExp('.*'+query.replace(/ /g, '.*')+'.*', 'gi');
+	var re = new RegExp('.*'+bezdiak(query.replace(/ /g, '.*'))+'.*', 'gi');
 
 	for (const kapitola in recepty) {
 		let value = recepty[kapitola];
@@ -40,12 +40,9 @@ function vyhledavani(event){
 			var kotvasmezerou = recept.replace(spojka, ' ');
 			var kotvasmezeroupozpatku = kotvasmezerou.split(' ').reverse().join(' ');
 			var dokument = kapitola.replace(spojka, '-')+'.html';
-			var vnazvu = nazev.match(re);
-			var vnazvupozpatku = nazevpozpatku.match(re);
-			var vkotve = kotva.match(re);
 			var vkotvesmezerou = kotvasmezerou.match(re);
 			var vkotvesmezeroupozpatku = kotvasmezeroupozpatku.match(re);
-			if(vnazvu || vkotve || vkotvesmezerou || vnazvupozpatku || vkotvesmezeroupozpatku){
+			if(vkotvesmezerou || vkotvesmezeroupozpatku){
 				if(nalezeno<limit){
 					vysledky.push({nazev: nazev, kotva: kotva, dokument: dokument});
 				}
@@ -54,11 +51,27 @@ function vyhledavani(event){
 		}
 	}
 
-
 	var seznam = '';
 	for(var foo=0; foo<vysledky.length; foo++){
 		seznam = seznam + '<li><a href="' + vysledky[foo].dokument + '#' + vysledky[foo].kotva + '">' + vysledky[foo].nazev + '</a></li>';
 	}
 	document.getElementById("vysledky").innerHTML = seznam;
+
+}
+
+function bezdiak(txt){
+	var tx = '';
+	var sdiak="ÁÂÄĄáâäąČčĆćÇçĈĉĎĐďđÉÉĚËĒĖĘéěëēėęĜĝĞğĠġĢģĤĥĦħÍÎíîĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĿŀŁłĹĽĺľŇŃŅŊŋņňńŉÓÖÔŐØŌōóöőôøŘřŔŕŖŗŠšŚśŜŝŞşŢţŤťŦŧŨũŪūŬŭŮůŰűÚÜúüűŲųŴŵÝYŶŷýyŽžŹźŻżß";
+	var bdiak="AAAAaaaaCcCcCcCcDDddEEEEEEEeeeeeeGgGgGgGgHhHhIIiiIiIiIiIiIiJjKkkLlLlLlLlLLllNNNNnnnnnOOOOOOooooooRrRrRrSsSsSsSsTtTtTtUuUuUuUuUuUUuuuUuWwYYYyyyZzZzZzs";
+
+for(p=0;p<txt.length;p++){
+
+if (sdiak.indexOf(txt.charAt(p))!=-1){
+	tx+=bdiak.charAt(sdiak.indexOf(txt.charAt(p)));
+}
+	else tx+=txt.charAt(p);
+}
+
+return tx;
 
 }
