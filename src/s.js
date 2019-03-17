@@ -29,19 +29,23 @@ function vyhledavani(event){
 	var limit = 100;
 	var nalezeno = 0;
 	var vysledky = [];
+	var re = new RegExp('.*'+query.replace(/ /g, '.*')+'.*', 'gi');
 
 	for (const kapitola in recepty) {
 		let value = recepty[kapitola];
 		for( const recept in recepty[kapitola]){
-			let nazev = recepty[kapitola][recept];
-			var re = new RegExp('.*'+query+'.*', 'gi');
-			var kotva =  recept.replace(spojka, '-');
-			var kotvasmezerou =  recept.replace(spojka, ' ');
-			var dokument =  kapitola.replace(spojka, '-')+'.html';
+			var nazev = recepty[kapitola][recept];
+			var nazevpozpatku = nazev.split(' ').reverse().join(' ');
+			var kotva = recept.replace(spojka, '-');
+			var kotvasmezerou = recept.replace(spojka, ' ');
+			var kotvasmezeroupozpatku = kotvasmezerou.split(' ').reverse().join(' ');
+			var dokument = kapitola.replace(spojka, '-')+'.html';
 			var vnazvu = nazev.match(re);
+			var vnazvupozpatku = nazevpozpatku.match(re);
 			var vkotve = kotva.match(re);
 			var vkotvesmezerou = kotvasmezerou.match(re);
-			if(vnazvu || vkotve || vkotvesmezerou){
+			var vkotvesmezeroupozpatku = kotvasmezeroupozpatku.match(re);
+			if(vnazvu || vkotve || vkotvesmezerou || vnazvupozpatku || vkotvesmezeroupozpatku){
 				if(nalezeno<limit){
 					vysledky.push({nazev: nazev, kotva: kotva, dokument: dokument});
 				}
