@@ -3,11 +3,11 @@
 <h3>Magdalena Dobromila Rettigová</h3>
 
 <p>
-Pojednání o masitých a postních pokrmech pro dcerky české a moravské.
+Pojednání o&nbsp;masitých a&nbsp;postních pokrmech pro dcerky české a&nbsp;moravské.
 </p>
 
 <p>
-Vedle úplné spolehlivosti předpisů v knize této obsažených podáno jest vše tak zřetelně a tak srozumitelnou řečí, že i pouhá začátečnice, zdravým rozmyslem nadaná, bez další porady všemu snadno porozumí.
+Vedle úplné spolehlivosti předpisů v&nbsp;knize této obsažených podáno jest vše tak zřetelně a&nbsp;tak srozumitelnou řečí, že i&nbsp;pouhá začátečnice, zdravým rozmyslem nadaná, bez další porady všemu snadno porozumí.
 </p>
 
 <p class="c">
@@ -17,7 +17,7 @@ Vedle úplné spolehlivosti předpisů v knize této obsažených podáno jest v
 <h3>Podpoř Domácí kuchařku!</h3>
 
 <p>
-Domácí kuchařka je volně dostupná aplikace s otevřeným <a href="https://github.com/petrkle/domaci-kucharka">zdrojovým kódem</a>.
+Domácí kuchařka je volně dostupná aplikace s&nbsp;otevřeným <a href="https://github.com/petrkle/domaci-kucharka">zdrojovým kódem</a>.
 </p>
 
 <p>
@@ -25,7 +25,7 @@ Jste-li spokojeným uživatelem, zvažte prosím finanční podporu.
 </p>
 
 <p>
-Příspěvek na další vývoj, opravy chyb a přidávání nových funkcí můžete poslat na účet: <b>1663602015/3030</b> se zprávou pro příjemce: "Kuchařka".
+Příspěvek na další vývoj, opravy chyb a&nbsp;přidávání nových funkcí můžete poslat na účet: <b>1663602015/3030</b> se zprávou pro příjemce: "Kuchařka".
 </p>
 
 <p class="c">Verze: {$VERSION}</p>
