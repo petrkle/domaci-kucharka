@@ -1198,5 +1198,12 @@ zmrzlina_z_punce:'Zmrzlina z punče',
 zmrzlina_z_rybizu:'Zmrzlina z rybízu',
 zmrzlina_z_vanilie:'Zmrzlina z vanilie',
 zmrzlina_z_visni:'Zmrzlina z višní'
+},
+
+miry_a_vahy:{
+libra:'Libra',
+lot:'Lot',
+zejdlik:'Žejdlík',
+kvintlik:'Kvintlík'
 }
 }
