@@ -1201,9 +1201,10 @@ zmrzlina_z_visni:'Zmrzlina z višní'
 },
 
 miry_a_vahy:{
+koflicek:'Koflíček',
+kvintlik:'Kvintlík',
 libra:'Libra',
 lot:'Lot',
-zejdlik:'Žejdlík',
-kvintlik:'Kvintlík'
+zejdlik:'Žejdlík'
 }
 }
