@@ -20,3 +20,4 @@ li.bookmark{background:url(star.svg) no-repeat 95% 50%;background-size:1em;}
 .bm{display:inline-block;}
 .bm:after, h2.bookmark:after{content:'';display:inline-block;width:2em;height: 1em;background:url(star.svg) no-repeat 50% 50%;background-size:1em;}
 #q{width:100%;margin:0;padding:0.5rem 0;border:0;font-size:1.6rem;border-bottom:solid #000 5px;}
+#q::-webkit-search-cancel-button{position:relative;right:0.5rem;height:3rem;width:3rem;}

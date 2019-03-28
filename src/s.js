@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded',function() {
 
 function showsearchform(){
 	nadpis = document.querySelector('h1');
-	nadpis.innerHTML = '<input type="text" id="q" autocomplete="off" />';
+	nadpis.innerHTML = '<input type="search" placeholder="Vyhledávání" id="q" autocomplete="off" />';
   document.querySelector('input[id="q"]').onkeyup=vyhledavani;
 	document.getElementById("q").focus();
 	nadpis = document.querySelector('h1');
