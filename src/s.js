@@ -53,7 +53,7 @@ function vyhledavani(event){
 
 	var seznam = '';
 	for(var foo=0; foo<vysledky.length; foo++){
-		seznam = seznam + '<li><a href="' + vysledky[foo].dokument + '#' + vysledky[foo].kotva + '">' + vysledky[foo].nazev + '</a></li>';
+		seznam = seznam + '<li><a href="' + vysledky[foo].dokument + '#' + vysledky[foo].kotva + '" class="vysledek">' + vysledky[foo].nazev + '</a></li>';
 	}
 	document.getElementById("vysledky").innerHTML = seznam;
 
