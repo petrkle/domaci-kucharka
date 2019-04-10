@@ -1208,6 +1208,7 @@ koflicek:'Koflíček',
 kvintlik:'Kvintlík',
 libra:'Libra',
 lot:'Lot',
+maz:'Máz',
 zejdlik:'Žejdlík'
 }
 }
