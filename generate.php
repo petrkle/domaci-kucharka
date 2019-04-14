@@ -17,7 +17,7 @@ foreach (glob(SRC."/*.html") as $foo) {
 	file_put_contents(WWW.'/'.$file, $html);
 }
 
-$VERSION = `TERM=xterm-color gradle -q printVersionName 2>/dev/null`;
+$VERSION = `git describe --tags --always --dirty`;
 
 $smarty->assign('VERSION', $VERSION);
 $smarty->assign('title', 'O programu');
