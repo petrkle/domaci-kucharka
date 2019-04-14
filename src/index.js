@@ -1,5 +1,6 @@
 var recepty = {
 cukrovinky: {
+cukrovinky:'Cukrovinky',
 anglicky_chlebicek:'Anglický chlebíček',
 anyzove_kornoutky:'Anýzové kornoutky',
 anyzove_preclicky:'Anýzové preclíčky',
@@ -65,6 +66,7 @@ zavitek_z_piskotoveho_testu:'Závitek z piškotového těstu'
 },
 
 dodatek:{
+dodatek:'Dodatek',
 jak_se_da_zeleny_hrasek_na_zimu_zachovat:'Jak se dá zelený hrášek na zimu zachovat',
 jak_se_dela_jecna_mouka:'Jak se dělá ječná mouka',
 jak_se_delaji_jaternice_jelita_a_klobasy:'Jak se dělají jaternice, jelita a klobásy',
@@ -87,6 +89,7 @@ rychly_prostredek_kdyz_se_kucharka_spali_neb_opari:'Rychlý prostředek, když s
 },
 
 dorty:{
+dorty:'Dorty',
 cerny_dort_se_zavareninkou:'Černý dort se zavařeninkou',
 cerny_chlebovy_dort:'Černý chlebový dort',
 dobry_skladany_dort:'Dobrý skládaný dort',
@@ -119,6 +122,7 @@ zemcatovy_dort:'Zemčatový dort'
 },
 
 hovezi_maso_a_rozlicna_jeho_uprava:{
+hovezi_maso_a_rozlicna_jeho_uprava:'Hovězí maso a rozličná jeho úprava',
 beefsteak_aneb_hovezi_rizky:'Beefsteak aneb hovězí řízky',
 beefsteak_na_cerstvy_zpusob:'Beefsteak na čerstvý způsob',
 beefsteak_se_sardelemi:'Beefsteak se sardelemi',
@@ -149,6 +153,7 @@ tak_nazvana_svickova_pecene:'Tak nazvaná svíčková pečeně'
 },
 
 jeste_nektera_postni_jidla:{
+jeste_nektera_postni_jidla:'Ještě některá postní jídla',
 houbovec:'Houbovec',
 houbovec_se_zemcatky:'Houbovec se zemčátky',
 jina_miseninka_z_ryb:'Jiná míšeninka z ryb',
@@ -175,6 +180,7 @@ zemcata_s_vejcemi:'Zemčata s vejcemi'
 },
 
 kolace_buchty_rozlicne_jine_pecivo_a_pamlsky:{
+kolace_buchty_rozlicne_jine_pecivo_a_pamlsky:'Koláče, buchty a rozličné jiné pečivo a pamlsky',
 bilkove_kolace:'Bílkové koláče',
 bily_norimbersky_pernik:'Bílý norimberský perník',
 bozi_milosti:'Boží milosti',
@@ -242,6 +248,7 @@ zmrzle_kolace:'Zmrzlé koláče'
 },
 
 kompoty:{
+kompoty:'Kompoty',
 jiny_kompot_z_cerstvych_svestek:'Jiný kompot z čerstvých švestek',
 jiny_kompot_z_misenskych_jablek:'Jiný kompot z míšeňských jablek',
 kompot_kastanovy:'Kompot kaštanový',
@@ -266,6 +273,7 @@ smazeny_kompot:'Smažený kompot',
 },
 
 ledy_rozlicnych_barev:{
+ledy_rozlicnych_barev:'Ledy rozličných barev',
 bily_led:'Bílý led',
 cerny_led:'Černý led',
 citronovy_a_pomerancovy_led:'Citronový a pomerančový led',
@@ -281,6 +289,7 @@ zluty_led:'Žlutý led'
 },
 
 masite_rosoly:{
+masite_rosoly:'Masité rosoly',
 aspik:'Aspik',
 husi_jatra_v_rosolu:'Husí játra v rosolu',
 huspenina_z_hovezich_paznehtu:'Huspenina z hovězích paznehtů',
@@ -306,6 +315,7 @@ teleci_rizky_v_rosolu:'Telecí řízky v rosolu'
 },
 
 moucna_jidla_obycejna_i_jemnejsi:{
+moucna_jidla_obycejna_i_jemnejsi:'Moučná jídla obyčejná i jemnější',
 bublanina_svestkova:'Bublanina švestková',
 bublanina_visnova:'Bublanina višňová',
 buchticky_s_kremem:'Buchtičky s krémem',
@@ -389,6 +399,7 @@ zemlovka_s_hrozinkami:'Žemlovka s hrozinkami'
 },
 
 nadivky_do_kolacu_buchticek_a_koblih:{
+nadivky_do_kolacu_buchticek_a_koblih:'Nádivky do koláčů, buchtiček a koblih',
 cukrova_jiska:'Cukrová jíška',
 hrozinkova_povidla:'Hrozinková povidla',
 jicha_k_posypani_kolacu:'Jícha k posypání koláčů',
@@ -400,6 +411,7 @@ tvaroh:'Tvaroh'
 },
 
 nakypy:{
+nakypy:'Nákypy',
 bilkove_venecky_se_sodo:'Bílkové věnečky se šodó',
 citronove_sodo:'Citronové šodó',
 cokoladovy_krem_s_rejzi:'Čokoládový krém s rejží',
@@ -485,6 +497,7 @@ venec_z_paleneho_testa:'Věnec z páleného těsta'
 },
 
 nalozeniny_k_hovezimu_masu:{
+nalozeniny_k_hovezimu_masu:'Naloženiny k hovězímu masu',
 male_okurcicky_v_pare_nalozene:'Malé okurčičky v páře naložené',
 nalozena_cervena_repa:'Naložená červená řepa',
 nalozena_michaninka:'Naložená míchaninka',
@@ -499,6 +512,7 @@ ryzce_v_parnich_sklenicich_nalozene:'Ryzce v parních sklenicích naložené'
 },
 
 napoje:{
+napoje:'Nápoje',
 bisof:'Bišof',
 caj:'Čaj',
 cajovy_puns:'Čajový punš',
@@ -522,6 +536,7 @@ studeny_puns:'Studený punš'
 },
 
 omacky_k_hovezimu_masu:{
+omacky_k_hovezimu_masu:'Omáčky k hovězímu masu',
 cibulova_omacka_s_vinem:'Cibulová omáčka s vínem',
 horcice:'Hořčice',
 kren_kysely:'Křen kyselý',
@@ -551,7 +566,8 @@ studena_omacka:'Studená omáčka',
 zlata_cibulova_omacka:'Zlatá cibulová omáčka'
 },
 
-ovocni_zavareninky:{
+ovocne_zavareninky:{
+ovocne_zavareninky:'Ovocné zavařeninky',
 boruvky_zavarene:'Borůvky zavařené',
 jablkova_zavareninka:'Jablková zavařeninka',
 jahodova_zavareninka:'Jahodová zavařeninka',
@@ -575,6 +591,7 @@ zavareninka_z_gdoulovych_jablek:'Zavařeninka z gdoulových jablek'
 },
 
 pastyky:{
+pastyky:'Paštyky',
 jiny_zpusob_masloveho_testa:'Jiný způsob máslového těsta',
 krehke_testo_k_pastykam:'Křehké těsto k paštykám',
 maslove_pasticky_s_koroptvemi:'Máslové pastičky s koroptvemi',
@@ -595,6 +612,7 @@ tuha_pastyka_se_zajicem:'Tuhá paštyka se zajícem'
 },
 
 pecene:{
+pecene:'Pečené',
 bazant_na_zvlastni_zpusob:'Bažant na zvláštní způsob',
 divoka_husa_a_kachna:'Divoká husa a kachna',
 holoubata_nadivana:'Holoubata nadívaná',
@@ -633,6 +651,7 @@ zajic:'Zajíc'
 },
 
 polivky_masite:{
+polivky_masite:'Polívky masité',
 bila_polivka_s_rejzi_pro_6_osob:'Bílá polívka s rejží pro 6 osob',
 dusena_polivka:'Dušená polívka',
 hneda_silna_polivka:'Hnědá silná polívka',
@@ -690,6 +709,7 @@ zluta_polivka_s_miseninkou:'Žlutá polívka s míšeninkou'
 },
 
 prichoutky_cili_asietky:{
+prichoutky_cili_asietky:'Příchoutky čili asietky',
 male_rizky_ze_studene_pecene:'Malé řízky ze studené pečeně',
 nadivana_cibule:'Nadívaná cibule',
 neprave_musle:'Nepravé mušle',
@@ -707,6 +727,7 @@ zemlicky_se_sekaninkon:'Žemličky se sekaninkon'
 },
 
 pudingy:{
+pudingy:'Pudingy',
 anglicky_puding:'Anglický puding',
 jiny_puding_s_uzeninou:'Jiný puding s uzeninou',
 jiny_puding_z_rejze:'Jiný puding z rejže',
@@ -722,6 +743,7 @@ puding_z_rejze:'Puding z rejže'
 },
 
 raci_zaby_sneci_a_musle:{
+raci_zaby_sneci_a_musle:'Raci, žáby, šneci a mušle',
 dusene_zaby:'Dušené žáby',
 fasirovani_raci_s_karfiolem:'Fašírovaní raci s karfiolem',
 musle_na_jiny_zpusob:'Mušle na jiný způsob',
@@ -739,6 +761,7 @@ zadelavane_zaby_s_petruzelkou:'Zadělávané žáby s petruželkou'
 },
 
 rozlicna_masla:{
+rozlicna_masla:'Rozličná másla',
 maslo_cokoladove:'Máslo čokoládové',
 maslo_ruzove:'Máslo růžové',
 maslo_sardelove:'Máslo sardelové',
@@ -749,6 +772,7 @@ raci_maslo:'Račí máslo'
 },
 
 rozlicne_miseninky:{
+rozlicne_miseninky:'Rozličné míšeninky',
 miseninka_majorankova:'Míšeninka majoránková',
 miseninka_majorankova_na_jiny_zpusob:'Míšeninka majoránková na jiný způsob',
 miseninka_se_hribkami:'Míšeninka se hříbkami',
@@ -757,6 +781,7 @@ miseninka_ze_salveje:'Míšeninka ze šalvěje'
 },
 
 rozlicne_octy:{
+rozlicne_octy:'Rozličné octy',
 ocet_bylinkovy:'Ocet bylinkový',
 ocet_citronovy:'Ocet citronový',
 ocet_estragonovy:'Ocet estragonový',
@@ -766,6 +791,7 @@ ocet_rybizovy:'Ocet rybízový'
 },
 
 rozlicne_ryby:{
+rozlicne_ryby:'Rozličné ryby',
 dusena_lupice:'Dušená lupice',
 fasirovany_kapr_misto_hoveziho_masa:'Fašírovaný kapr místo hovězího masa',
 jezek_ze_stiky:'Ježek ze štiky',
@@ -842,6 +868,7 @@ vyzina_s_muslemi:'Vyzina s mušlemi'
 },
 
 rybi_a_postni_polivky:{
+rybi_a_postni_polivky:'Rybí a postní polívky',
 bila_rybi_polivka:'Bílá rybí polívka',
 cockova_polivka:'Čočková polívka',
 druha_miseninka:'Druhá míšeninka',
@@ -875,6 +902,7 @@ zlata_polivka_s_rosolem:'Zlatá polívka s rosolem'
 },
 
 salaty:{
+salaty:'Saláty',
 hlavkovy_salat_na_francouzsky_zpusob:'Hlávkový salát na francouzský způsob',
 hlavkovy_salat_se_slaninou:'Hlávkový salát se slaninou',
 hlavkovy_salat_s_kyselou_smetanou:'Hlávkový salát s kyselou smetanou',
@@ -898,6 +926,7 @@ sladky_salat:'Sladký salát'
 },
 
 sladke_rosoly:{
+sladke_rosoly:'Sladké rosoly',
 ananasovy_rosol_se_smetanovou_penou:'Ananasový rosol se smetanovou pěnou',
 bily_mandlovy_rosol:'Bílý mandlový rosol',
 cisteni_cukru:'Čistění cukru',
@@ -937,6 +966,7 @@ visne_v_rosolu:'Višně v rosolu',
 },
 
 smazeniny_pofezky_svitky_a_kotletky:{
+smazeniny_pofezky_svitky_a_kotletky:'Smaženiny, pofézky, svítky a kotletky',
 fasirovane_karbanatky:'Fašírované karbanátky',
 jehneci_kotletky:'Jehněčí kotletky',
 jehneci_kotletky_nadivane:'Jehněčí kotletky nadívané',
@@ -969,6 +999,7 @@ zavitky_z_kapusty:'Závitky z kapusty'
 },
 
 vejce:{
+vejce:'Vejce',
 michane_vejce:'Míchané vejce',
 michane_vejce_se_hribkami:'Míchané vejce se hříbkami',
 michane_vejce_se_sardelemi:'Míchané vejce se sardelemi',
@@ -989,6 +1020,7 @@ ztracene_vejce:'Ztracené vejce'
 },
 
 zadelavana_a_dusena_jidla:{
+zadelavana_a_dusena_jidla:'Zadělávaná a dušená jídla',
 drstky:'Dršťky',
 fasirovana_kachna:'Fašírovaná kachna',
 fasirovana_kejta:'Fašírovaná kejta',
@@ -1086,6 +1118,7 @@ zavinute_teleci_rizky:'Zavinuté telecí řízky'
 },
 
 zadelavana_zverina:{
+zadelavana_zverina:'Zadělávaná zvěřina',
 cerna_zverina:'Černá zvěřina',
 cerna_zverina_na_jiny_zpusob:'Černá zvěřina na jiný způsob',
 divoka_kachna:'Divoká kachna',
@@ -1114,6 +1147,7 @@ zverina_srnci_zadelavana:'Zvěřina srnci zadělávaná'
 },
 
 zavarene_cele_ovoce:{
+zavarene_cele_ovoce:'Zavařené celé ovoce',
 citronada_v_cukru_zavarena:'Citronáda v cukru zavařená',
 jak_se_ovoce_v_pare_zavaruje:'Jak se ovoce v páře zavařuje',
 merunky_v_cukru_zavarene:'Meruňky v cukru zavařené',
@@ -1134,6 +1168,7 @@ zavareny_rybiz:'Zavařený rybíz'
 },
 
 zeleniny:{
+zeleniny:'Zeleniny',
 articoky_dusene:'Artičoky dušené',
 articoky_s_omackou:'Artičoky s omáčkou',
 brukve_nadivane:'Brukve nadívané',
@@ -1181,6 +1216,7 @@ zeleny_hrasek_s_mrkvickou:'Zelený hrášek s mrkvičkou'
 },
 
 zmrzliny:{
+zmrzliny:'Zmrzliny',
 jahodova_zmrzlina_se_smetanou:'Jahodová zmrzlina se smetanou',
 jak_se_cukr_cisti_a_ve_vareni_postupuje:'Jak se cukr čistí a ve vaření postupuje',
 jak_se_ma_led_pripravovat_a_zmrzlina_delat:'Jak se má led připravovat a zmrzlina dělat',
@@ -1203,7 +1239,22 @@ zmrzlina_z_vanilie:'Zmrzlina z vanilie',
 zmrzlina_z_visni:'Zmrzlina z višní'
 },
 
+predmluva:{
+predmluva:'Předmluva',
+},
+
+uvod:{
+uvod:'Úvod',
+dulezite_predbezne_pouceni:'Důležité předběžné poučení'
+},
+
+about:{
+magdalena_dobromila_rettigova:'Magdalena Dobromila Rettigová',
+podpor_domaci_kucharku:'Podpoř Domácí kuchařku'
+},
+
 miry_a_vahy:{
+miry_a_vahy:'Míry a váhy',
 koflicek:'Koflíček',
 kvintlik:'Kvintlík',
 libra:'Libra',
@@ -1211,4 +1262,5 @@ lot:'Lot',
 maz:'Máz',
 zejdlik:'Žejdlík'
 }
+
 }

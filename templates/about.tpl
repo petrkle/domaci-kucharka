@@ -1,6 +1,6 @@
 <h1><a href="index.html">Domácí kuchařka</a></h1>
 
-<h3>Magdalena Dobromila Rettigová</h3>
+<h3><a id="magdalena-dobromila-rettigova">Magdalena Dobromila Rettigová</a></h3>
 
 <p>
 Pojednání o&nbsp;masitých a&nbsp;postních pokrmech pro dcerky české a&nbsp;moravské.
@@ -14,7 +14,7 @@ Vedle úplné spolehlivosti předpisů v&nbsp;knize této obsažených podáno j
 <a href="index.html"><img src="kucharka512.png" style="width:100%;max-width:512px;" alt="Hrnec"></a>
 </p>
 
-<h3>Podpoř Domácí kuchařku!</h3>
+<h3><a id="podpor-domaci-kucharku">Podpoř Domácí kuchařku!</a></h3>
 
 <p>
 Domácí kuchařka je volně dostupná aplikace s&nbsp;otevřeným <a href="https://github.com/petrkle/domaci-kucharka">zdrojovým kódem</a>.
