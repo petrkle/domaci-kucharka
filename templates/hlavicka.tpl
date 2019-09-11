@@ -7,5 +7,6 @@
 	<meta name="theme-color" content="#660">
 	<link rel="stylesheet" media="screen" type="text/css" href="kucharka.css" />
 	<link rel="icon" type="image/png" href="kucharka512.png" />
+	<script src="theme.js"></script>
 </head>
 <body>

@@ -26,7 +26,7 @@ $html .= $smarty->fetch('about.tpl');
 $html .= $smarty->fetch('paticka.tpl');
 file_put_contents(WWW.'/about.html', $html);
 
-copyToDir(SRC.'/kucharka.css', WWW);
+copyToDir(SRC.'/*.css', WWW);
 copyToDir(SRC.'/roboto-regular.ttf', WWW);
 copyToDir(SRC.'/*.js', WWW);
 copyToDir(SRC.'/*.svg', WWW);

@@ -31,3 +31,5 @@ Příspěvek na další vývoj, opravy chyb a&nbsp;přidávání nových funkcí
 <p class="c">Verze: {$VERSION}</p>
 
 <p class="c">Kontakt: <a href="mailto:petr@kle.cz?subject=Domácí%20kuchařka">petr@kle.cz</a></p>
+
+{include file='settings.tpl'}
