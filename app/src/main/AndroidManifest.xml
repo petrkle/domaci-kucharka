@@ -30,6 +30,7 @@
 	android:name="DomaciKucharka"
 	android:windowSoftInputMode="adjustResize"
 	android:theme="@style/DomaciKucharka"
+	android:exported="false"
 >
 
 <intent-filter android:label="@string/app_name">
