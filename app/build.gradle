@@ -28,7 +28,7 @@ android {
         targetSdkVersion 33
         versionCode gitVersionCode
         versionName "${gitVersionName}"
-        setProperty("archivesBaseName", "Domaci-kucharka-$versionName")
+        setProperty("archivesBaseName", "Domaci-kucharka")
     }
     signingConfigs {
         release
