@@ -5,8 +5,6 @@ platform :android do
   lane :deploy do
     upload_to_play_store(
      aab: './app/build/outputs/bundle/release/Domaci-kucharka-release.aab',
-     track: 'production',
-     track_promote_to: 'production',
      skip_upload_metadata: true,
      skip_upload_images: true,
      skip_upload_screenshots: true,
