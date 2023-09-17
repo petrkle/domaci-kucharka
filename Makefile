@@ -5,6 +5,8 @@ help:
 	@echo "apk           - vytvori apk soubor"
 	@echo "bundleupdate  - vytvoří bundle"
 	@echo "tag           - vytvori novy tag"
+	@echo "fastlane      - nainstaluje fastlane"
+	@echo "release       - release do google play"
 	@echo "clean         - smaze generovane a stazene soubory"
 
 apk:
@@ -21,7 +23,7 @@ clean:
 	rm -rf build .gradle
 	rm -rf tmp
 
-bundleupdate:
+fastlane:
 	bundle update
 
 release:
