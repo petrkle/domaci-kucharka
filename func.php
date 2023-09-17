@@ -11,10 +11,10 @@ function copyToDir($pattern, $dir)
 }
 
 function get_title($html){
-	$navrat = array();
-	$dom = new DOMDocument();
-	$dom->loadHTML($html);
-	$xpath = new DOMXPath($dom);
-	$nadpis = $xpath->query("//h1");
-	return($nadpis[0]->nodeValue);
+  $navrat = array();
+  $dom = new DOMDocument();
+  $dom->loadHTML($html);
+  $xpath = new DOMXPath($dom);
+  $nadpis = $xpath->query("//h1");
+  return($nadpis[0]->nodeValue);
 }
