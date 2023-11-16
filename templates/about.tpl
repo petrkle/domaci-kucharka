@@ -32,6 +32,10 @@ Příspěvek na další vývoj, opravy chyb a&nbsp;přidávání nových funkcí
 
 <p class="c">Kontakt: <a href="mailto:petr@kle.cz?subject=Domácí%20kuchařka">petr@kle.cz</a></p>
 
-<p><a href="https://github.com/petrkle/domaci-kucharka/blob/master/README.md">Ochrana soukromí</a></p>
+<h3><a href="https://kle.cz/domaci-kucharka/zasady-ochrany-soukromi.html">Zásady ochrany soukromí</a></h3>
+
+<p>Nejsou vyžadována žádná oprávnění.</p>
+<p>Žádné datové přenosy.</p>
+<p>Aplikace neshromažďuje ani nesdílí data o uživatelích.</p>
 
 {include file='settings.tpl'}
