@@ -3,7 +3,6 @@
     <name>domacikucharka</name>
     <content src="index.html" />
     <preference name="loglevel" value="ERROR" />
-    <preference name="FullScreen" value="true" />
     <allow-intent href="https://*/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="mailto:*" />
