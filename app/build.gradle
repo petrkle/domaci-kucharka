@@ -20,12 +20,12 @@ android {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 35
     namespace "cz.kle.domacikucharka"
     defaultConfig {
         applicationId "cz.kle.domacikucharka"
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode gitVersionCode
         versionName "${gitVersionName}"
         setProperty("archivesBaseName", "Domaci-kucharka")
