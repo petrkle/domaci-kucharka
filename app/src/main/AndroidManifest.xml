@@ -28,7 +28,7 @@
   android:launchMode="singleTop"
   android:name="DomaciKucharka"
   android:windowSoftInputMode="adjustResize"
-  android:theme="@style/DomaciKucharka"
+  android:theme="@style/Theme.App.SplashScreen"
   android:exported="true"
 >
 
