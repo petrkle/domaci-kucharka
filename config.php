@@ -7,4 +7,5 @@ setlocale(LC_CTYPE, 'cs_CZ.UTF-8', 'Czech');
 
 require 'vendor/autoload.php';
 use Smarty\Smarty;
+
 $smarty = new Smarty();
