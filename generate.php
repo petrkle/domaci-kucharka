@@ -30,4 +30,4 @@ copyToDir(SRC.'/*.css', WWW);
 copyToDir(SRC.'/roboto-regular.ttf', WWW);
 copyToDir(SRC.'/*.js', WWW);
 copyToDir(SRC.'/*.svg', WWW);
-copyToDir('img/kucharka512.png', WWW);
+copyToDir('img/hrnec.svg', WWW);

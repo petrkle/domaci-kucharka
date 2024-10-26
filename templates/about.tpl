@@ -11,7 +11,7 @@ Vedle úplné spolehlivosti předpisů v&nbsp;knize této obsažených podáno j
 </p>
 
 <p class="c">
-<a href="index.html"><img src="kucharka512.png" style="width:100%;max-width:512px;" alt="Hrnec"></a>
+<a href="index.html"><img src="hrnec.svg" style="width:100%;max-width:512px;" alt="Hrnec"></a>
 </p>
 
 <h3><a id="podpor-domaci-kucharku">Podpoř Domácí kuchařku!</a></h3>
