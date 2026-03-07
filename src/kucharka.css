@@ -1,6 +1,6 @@
 @media all{
 @font-face{font-family:"robotoregular";src:url("roboto-regular.ttf") format("opentype");}
-html,body{font-family:"robotoregular",sans-serif;color:#000;background:#fff;margin:0;padding:0;text-align:center;margin:0;padding:0;}
+body{font-family:"robotoregular",sans-serif;color:#000;background:#fff;margin:0;text-align:center;margin:0;padding:0;;padding-top:var(--safe-area-inset-top);padding-right:var(--safe-area-inset-right);padding-bottom:var(--safe-area-inset-bottom);padding-left:var(--safe-area-inset-left);}
 .knoflik{padding:1em 2em;}
 }
 
